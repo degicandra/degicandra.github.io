@@ -1,0 +1,104 @@
+/*----------------------- PRELOADER START-----------------------*/
+#preloader{
+    background: rgb(34, 34, 34, 0.25) url("../img/preloader.gif") no-repeat center center;
+    background-size: 7%;
+    height:100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+/*----------------------- PRELOADER END -----------------------*/
+
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+}
+
+.navbar {
+	transition: all 0.5s;
+}
+
+.navbar a {
+	color: aliceblue;
+}
+
+.navbar a:hover {
+	color: aqua;
+}
+
+li{
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 22px;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(70, 70, 70, 0.2);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.gambar{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/banner2.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.gambar h1{
+	font-family: "Bebas Neue", sans-serif;;
+	font-size: 10vh;
+	color: white;
+	text-shadow: 1px 1px 10px rgba(240, 240, 240, 0.548);
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+  }
+
+.bg-image {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	filter: brightness(0.6);
+}
+
+
+#experience {
+	background-color: rgb(255, 153, 0);
+	width: 100%;
+	height: 100vh;
+}
+
+#scrollspyHeading4 {
+	background-color: rgb(255, 0, 76);
+	width: 100%;
+	height: 100vh;
+}
+
+#scrollspyHeading5 {
+	background-color: rgb(0, 255, 55);
+	width: 100%;
+	height: 100vh;
+}
+
+
