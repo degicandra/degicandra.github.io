@@ -1,0 +1,52 @@
+
+:root {
+  --bg-color: #fafafa;
+  --text-color: #333;
+}
+
+.dark-mode {
+  --bg-color: #1e1e2f;
+  --text-color: #fff;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Tambahkan transition untuk elemen navbar agar smooth */
+.navbar, .navbar ul li a {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+/* Animasi icon dark mode */
+.dark-toggle .icon {
+  display: inline-block;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dark-toggle.active .icon {
+  opacity: 1;
+  transform: rotate(180deg);
+}
