@@ -20,7 +20,7 @@
         <a href="https://www.linkedin.com/in/degicandra/" target="_blank">
         <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://github.com" target="_blank">
+        <a href="https://github.com/degicandra" target="_blank">
           <i class="fab fa-github"></i>
         </a>
         <a href="https://www.instagram.com/dgcndr/" target="_blank">
