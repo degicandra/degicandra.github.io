@@ -14,7 +14,7 @@ import Footer from './components/Footer.vue';
 </script>
 
 <style lang="scss">
-@import './assets/styles/main.scss';
+@use './assets/styles/main.scss' as *;
 #app { display: flex; flex-direction: column; min-height: 100vh; }
 .container { flex: 1; padding: 20px; }
 </style>
