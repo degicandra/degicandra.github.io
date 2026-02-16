@@ -15,7 +15,7 @@
           :data-aos-delay="project.id * 100"
         >
           <div class="project-image">
-            <img :src="project.image" :alt="project.title">
+            <img :src="project.image" :alt="project.title" loading="lazy">
             <div class="project-overlay">
               <button class="view-btn" @click="openProject(project)">
                 View Project

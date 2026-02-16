@@ -4,7 +4,7 @@
     <div class="hero-inner">
       <!-- Foto Profil -->
       <div class="hero-photo" data-aos="zoom-in" data-aos-delay="200">
-        <img src="/src/assets/img/profile2.png" alt="Profile">
+        <img src="/src/assets/img/profile2.png" alt="Profile" loading="lazy">
       </div>
 
       <!-- Konten -->

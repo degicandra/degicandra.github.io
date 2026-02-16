@@ -9,7 +9,10 @@ export default defineConfig({
       output: {
         manualChunks: undefined
       }
-    }
+    },
+    cssCodeSplit: true,
+    sourcemap: false,
+    chunkSizeWarningLimit: 1000
   }
 });
 
