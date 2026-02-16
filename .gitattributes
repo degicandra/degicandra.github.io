@@ -1,0 +1,12 @@
+# Normalisasi teks ke LF di repo
+* text=auto eol=lf
+
+# File yang harus tetap binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# (Opsional) bahasa/format tertentu
+*.sh  text eol=lf
